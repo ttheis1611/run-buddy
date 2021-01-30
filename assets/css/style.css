@@ -121,20 +121,8 @@ section {
   font-size: 16px;
 }
 
-/*what we do section*/
 .intro {
   text-align: center;
-}
-
-.intro h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #fce138;
-  /* add this alongside your other declarations */
-  display: inline-block;
 }
 
 .intro p {
@@ -142,42 +130,12 @@ section {
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
-  /* add this alongside your other declarations */
   margin: 0 auto;
 }
 
-/*what we do section*/
-.steps { 
+.steps {
   text-align: center;
   background: #fce138;
-}
-
-.steps h2 {
-  font-size:  55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #39a6b2;
-}
-
-/*meet the trainers section*/
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block
-  border-bottom: 3px solid;
-}
-
-.primary-border {
-  border-color: #fce138;
-
-}
-
-.secondary-border {
-  border-color: #39a6b2;
 }
 
 .steps div {
@@ -187,7 +145,7 @@ section {
 .steps img {
   width: 15%;
   margin: 10px 0;
-} 
+}
 
 .steps h3 {
   color: #024e76;
@@ -204,7 +162,23 @@ section {
   font-size: 38px;
 }
 
-/* Trainer bios*/
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
 .trainers {
   text-align: center;
 }
@@ -222,16 +196,8 @@ section {
   float: left;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
 .trainer-bio {
-  padding:35px;
+  padding: 35px;
   float: left;
   width: 65%;
 }
@@ -250,4 +216,12 @@ section {
 .trainer-bio p {
   font-size: 17px;
   line-height: 1.3;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
